@@ -41,9 +41,9 @@ new_tee_div = html.Div([
 new_round_div = html.Div([
     html.Label('Choose Course'),
     dcc.Dropdown(
-        options=[
-            {'value': 'new-course', 'label': 'New Course...'}
-        ],
+        # options=[
+        #     {'value': 'new-course', 'label': 'New Course...'}
+        # ],
         id='choose-course'
     ),
     html.Div(id='new-course-div'),
